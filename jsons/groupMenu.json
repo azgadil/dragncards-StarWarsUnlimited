@@ -1,4 +1,9 @@
 {
     "groupMenu": {
+        "options": [
+            {
+                "label": "id:shuffleGroupIntoDeck",
+                "actionList": "shuffleGroupIntoDeck"
+            }
     }
 }
