@@ -3,6 +3,9 @@
     "allHandsVisible" : {
             "English": "All Hands Visible"
     },
+    {"hp": {
+        "English": "HP"
+    },
     "onlyShowMyHand" : {
             "English": "Only Show My Hand"
     },
@@ -24,7 +27,7 @@
     "player1Leader": {
             "English": "Player 1 Leader"
     },
-      "player1SpaceArena" : {
+    "player1SpaceArena" : {
             "English": "Player 1 Space Arena"
     },
     "player2Base": {
@@ -39,7 +42,7 @@
     "player2Hand": {
             "English": "Player 1 Hand"
     },
-      "player2GroundArena" : {
+    "player2GroundArena" : {
             "English": "Player 1 Ground Arena"
     },
     "player2Leader": {
@@ -47,6 +50,9 @@
     },
       "player2SpaceArena" : {
             "English": "Player 1 Space Arena"
+    },
+    "power": {
+        "English": "Power"
     }
   }
 }
