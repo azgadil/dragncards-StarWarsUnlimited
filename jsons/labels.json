@@ -19,8 +19,12 @@
     "hp": {
         "English": "HP"
     },
-    "groundArena": {"English": "Ground Arena"},
-    "leader": {"English": "Leader"},
+    "groundArena": {
+      "English": "Ground Arena"
+    },
+    "leader": {
+      "English": "Leader"
+    },
     "onlyShowMyHand" : {
             "English": "Only Show My Hand"
     },
@@ -69,6 +73,8 @@
     "power": {
         "English": "Power"
     },
-    "spaceArena": {"English": "Space Arena"}
+    "spaceArena": {
+      "English": "Space Arena"
+    }
   }
 }
