@@ -26,6 +26,27 @@
     },
       "player1SpaceArena" : {
             "English": "Player 1 Space Arena"
+    },
+    "player2Base": {
+            "English": "Player 1 Base"
+    },
+    "player2Discard": {
+            "English": "Player 1 Discard"
+    },
+    "player2Deck": {
+            "English": "Player 1 Deck"
+      },
+    "player2Hand": {
+            "English": "Player 1 Hand"
+    },
+      "player2GroundArena" : {
+            "English": "Player 1 Ground Arena"
+    },
+    "player2Leader": {
+            "English": "Player 1 Leader"
+    },
+      "player2SpaceArena" : {
+            "English": "Player 1 Space Arena"
     }
   }
 }
