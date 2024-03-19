@@ -1,1 +1,19 @@
+{
+    "layouts": {
+        "onlyShowMyHand": {
+            "postSetActionList": "postSetLayout",
+            "cardSize": 13,
+            "rowSpacing": 3,
+            "chat": {"left": "63%", "top": "84%", "width": "25%", "height": "16%"},
+            "browse": {"type": "fan", "direction": "horizontal", "left": "0%", "top": "48%", "width": "88%", "height": "16%"},
+            "regions": {
 
+                "playerNSpaceArena": {"groupId": "playerNSpaceArena", "type": "row", "direction": "horizontal", "left": "44%", "top": "32%", "width":  "44%", "height": "32%", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
+                "playerNGroundArena": {"groupId": "playerNGroundArena", "type": "row", "direction": "horizontal", "left": "0%", "top": "32%", "width":  "44%", "height": "32%", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
+                "playerNHand": {"groupId": "playerNHand", "type": "fan", "direction": "horizontal", "left":  "0%", "top": "84%", "width": "39%", "height": "16%", "style": {"background": "rgba(0, 0, 0, 0.3)"}, "showMenu": true},
+                "playerNDeck": {"groupId": "playerNDeck", "type": "pile", "direction": "horizontal", "left": "39%", "top": "84%", "width":  "8%", "height": "16%", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
+                "playerNDiscard": {"groupId": "playerNDiscard", "type": "pile", "direction": "horizontal", "left": "39%", "top": "84%", "width":  "8%", "height": "16%", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
+                "playerNLeader": {"groupId": "playerNLeader", "type": "pile", "direction": "horizontal", "left": "47%", "top": "84%", "width":  "8%", "height": "16%", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
+                "playerNBase": {"groupId": "playerNBase", "type": "pile", "direction": "horizontal", "left": "55%", "top": "84%", "width":  "8%", "height": "16%", "style": {"background": "rgba(0, 0, 0, 0.3)"}}
+            }
+        }
