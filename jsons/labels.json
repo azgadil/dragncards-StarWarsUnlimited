@@ -3,9 +3,6 @@
     "allHandsVisible" : {
             "English": "All Hands Visible"
     },
-    "Base": {
-      "English": "Base"
-    },
     "base": {
       "English": "Base"
     },
@@ -29,9 +26,6 @@
     },
     "leader": {
       "English": "Leader"
-    },
-    "Leader": {
-        "English": "Leader"
     },
     "onlyShowMyHand" : {
             "English": "Only Show My Hand"
