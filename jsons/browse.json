@@ -1,1 +1,7 @@
-
+{
+    "browse": {
+        "filterPropertySideA": "type",
+        "filterValuesSideA": ["Unit", "Event", "Upgrade"],
+        "textPropertiesSideA": ["name","arena","trait","text"] 
+    }
+}
