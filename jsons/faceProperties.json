@@ -1,1 +1,6 @@
-
+{
+    "faceProperties": {
+        "power": {"type": "integer", "default": 0},
+        "hp": {"type": "integer", "default": 0}
+    }
+}
