@@ -67,7 +67,7 @@
                 "controller": "player2",
                 "peeking": {"player2": true}
             }
-        }
+        },
       "player1SpaceArena": {
             "groupType": "inPlay",
             "label": "id:player1SpaceArena", 
@@ -107,7 +107,7 @@
                 "controller": "player2",
                 "peeking": {"player2": true}
             }
-        }
+        },
        "player1Leader": {
             "groupType": "inPlay",
             "label": "id:player1Leader", 
