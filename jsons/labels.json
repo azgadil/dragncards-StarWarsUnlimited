@@ -1,10 +1,31 @@
 {
   "labels": {
-      "allHandsVisible" : {
+    "allHandsVisible" : {
             "English": "All Hands Visible"
-                  },
-      "onlyShowMyHand" : {
+    },
+    "onlyShowMyHand" : {
             "English": "Only Show My Hand"
-                  }
+    },
+    "player1Base": {
+            "English": "Player 1 Base"
+    },
+    "player1Discard": {
+            "English": "Player 1 Discard"
+    },
+    "player1Deck": {
+            "English": "Player 1 Deck"
+      },
+    "player1Hand": {
+            "English": "Player 1 Hand"
+    },
+      "player1GroundArena" : {
+            "English": "Player 1 Ground Arena"
+    },
+    "player1Leader": {
+            "English": "Player 1 Leader"
+    },
+      "player1SpaceArena" : {
+            "English": "Player 1 Space Arena"
+    }
   }
 }
