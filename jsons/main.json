@@ -1,1 +1,10 @@
-
+{
+    "pluginName": "Star Wars Unlimited",
+    "tutorialUrl": "youtube.com",
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "firstPlayerImageUrl": "https://i.imgur.com/v67glJPb.jpg",
+    "backgroundUrl": "https://i.imgur.com/sylTBgbb.jpg",
+    "loadPreBuiltOnNewGame": true,
+    "vacantSeatOnNewGame": true
+}
