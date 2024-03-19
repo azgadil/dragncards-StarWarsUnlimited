@@ -1,1 +1,10 @@
-
+{
+  "labels": {
+      "allHandsVisible" : {
+            "English": "All Hands Visible"
+                  },
+      "onlyShowMyHand" : {
+            "English": "Only Show My Hand"
+                  }
+  }
+}
