@@ -1,5 +1,12 @@
 {
   "actionLists": {
+    "basicSetup": [
+            ["DEFINE", "$PLAYER_N", "player1"],
+            ["SET", "/playerData/$PLAYER_N/label", "Player 1"],
+            ["DEFINE", "$PLAYER_N", "player2"],
+            ["SET", "/playerData/$PLAYER_N/label", "Player 2"],
+            ["SET", "/numPlayers", 2]
+        ],
   }
 }
 
