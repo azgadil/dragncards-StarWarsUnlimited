@@ -3,7 +3,9 @@
     "allHandsVisible" : {
             "English": "All Hands Visible"
     },
-    "Base": {"English": "Base"},
+    "base": {
+      "English": "Base"
+    },
     "deck": {
         "English": "Deck"
     },
