@@ -1,1 +1,6 @@
-
+{
+    "cardBacks": {
+        "Player Card":    {"width": 0.72, "height": 1.0, "imageUrl": "https://dragncards-wotr.s3.amazonaws.com/cards/RedCardBack.jpg"},
+        "Leader Card":    {"width": 0.72, "height": 1.0, "imageUrl": "https://dragncards-wotr.s3.amazonaws.com/cards/PathBack1.jpg"}
+        }
+}
