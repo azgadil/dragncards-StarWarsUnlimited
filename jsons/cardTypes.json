@@ -1,1 +1,7 @@
-
+{
+    "cardTypes": {
+        "Event":          {"width": 0.72, "height": 1.0, "tokens": ["cost","aspect"]},
+        "Unit":           {"width": 0.72, "height": 1.0, "tokens": ["cost","aspect","power","hp"]},
+        "Upgrade":        {"width": 0.72, "height": 1.0, "tokens": ["cost","aspect","power","hp"]}
+    }
+}
