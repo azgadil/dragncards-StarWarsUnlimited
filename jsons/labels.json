@@ -3,6 +3,18 @@
     "allHandsVisible" : {
             "English": "All Hands Visible"
     },
+    "deck": {
+        "English": "Deck"
+    },
+    "discard": {
+        "English": "Discard"
+    },
+    "draw": {
+      "English": "Draw"
+    },
+    "hand": {
+      "English": "Hand"
+    },
     {"hp": {
         "English": "HP"
     },
