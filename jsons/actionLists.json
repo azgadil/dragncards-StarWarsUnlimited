@@ -1,11 +1,68 @@
 {
   "actionLists": {
     "basicSetup": [
-            ["DEFINE", "$PLAYER_N", "player1"],
-            ["SET", "/playerData/$PLAYER_N/label", "Player 1"],
-            ["DEFINE", "$PLAYER_N", "player2"],
-            ["SET", "/playerData/$PLAYER_N/label", "Player 2"],
             ["SET", "/numPlayers", 2]
+        ],
+    "drawCard": [
+            ["LOG", "{{$ALIAS_N}} drew a card."],
+            ["DRAW_CARD"]
+        ],
+    "toggleRotate": [
+            ["COND",
+                ["AND", ["EQUAL", "$ACTIVE_CARD.rotation", 90], "$ACTIVE_CARD.inPlay"],
+                [
+                    ["LOG", "$ALIAS_N", " rotated ", "$ACTIVE_FACE.name", "."],
+                    ["SET", "/cardById/$ACTIVE_CARD_ID/rotation", 0]
+                ],
+                ["AND", ["EQUAL", "$ACTIVE_CARD.rotation", 0], "$ACTIVE_CARD.inPlay"],
+                [
+                    ["LOG", "$ALIAS_N", " rotated ", "$ACTIVE_FACE.name", "."],
+                    ["SET", "/cardById/$ACTIVE_CARD_ID/rotation", 90]
+                ]
+            ]
+        ],
+    "flipCard": [
+            ["COND",
+            ["EQUAL", "$ACTIVE_CARD.currentSide", "A"],
+            [
+                ["LOG", "$ALIAS_N", " flipped ", "$ACTIVE_FACE.name", " facedown."],
+                ["SET", "/cardById/$ACTIVE_CARD_ID/currentSide", "B"]
+            ],
+            true,
+            [
+                ["SET", "/cardById/$ACTIVE_CARD_ID/currentSide", "A"],
+                ["LOG", "$ALIAS_N", " flipped ", "$ACTIVE_FACE.name", " faceup."]
+            ]
+            ]
+        ],
+    "detach": [
+            ["COND",
+            ["GREATER_THAN", "$ACTIVE_CARD.cardIndex", 0],
+            [
+                ["MOVE_CARD", "$ACTIVE_CARD_ID", "$ACTIVE_CARD.groupId", ["ADD", "$ACTIVE_CARD.stackIndex", 1], 0],
+                ["LOG", "$ALIAS_N", " detached ", "$ACTIVE_FACE.name", "."]
+            ]
+            ]
+        ],
+    "shuffleGroupIntoDeck": [
+            ["DEFINE", "$ORIG_GROUP", "$GAME.playerUi.dropdownMenu.group"],
+            ["FOR_EACH_KEY_VAL", "$CARD_ID", "$CARD", "$CARD_BY_ID",
+            ["COND", 
+                ["AND",
+                ["EQUAL", "$CARD.groupId", "$GAME.playerUi.dropdownMenu.group.id"],
+                ["NOT_EQUAL", "$CARD.deckGroupId", null]
+                ],
+                [
+                ["MOVE_CARD", "$CARD_ID", "$CARD.deckGroupId", 0, 0],
+                ["SHUFFLE_GROUP", "$CARD.deckGroupId"]
+                ]
+            ]
+            ],
+            ["LOG", "$ALIAS_N", " shuffled the cards in ", "$ORIG_GROUP.name", " into their corresponding decks."]
+        ],
+    "postSetLayout": [
+            ["SET_NUM_BLUE_RED", "$GAME.numBlue", "$GAME.numRed"],
+            ["HIGHLIGHT_CURRENT_PLAYER"]
         ]
   }
 }
