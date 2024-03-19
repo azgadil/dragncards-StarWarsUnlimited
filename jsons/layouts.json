@@ -17,3 +17,5 @@
                 "playerNBase": {"groupId": "playerNBase", "type": "pile", "direction": "horizontal", "left": "55%", "top": "84%", "width":  "8%", "height": "16%", "style": {"background": "rgba(0, 0, 0, 0.3)"}}
             }
         }
+    }
+}
