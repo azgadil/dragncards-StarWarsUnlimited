@@ -28,6 +28,34 @@
                 "controller": "player2"
             }
         },
+        "player1Discard": {
+            "groupType": "deck",
+            "label": "id:player1Discard", 
+            "tableLabel": "id:discard",
+            "canHaveAttachments": false,
+            "shuffleOnLoad": true,
+            "onCardEnter": {
+                "controller": "player1",
+                "deckGroupId": "player1Discard"
+            },
+            "onCardLeave": {
+                "controller": "player1"
+            }
+        },
+      "player2Discard": {
+            "groupType": "deck",
+            "label": "id:player2discard", 
+            "tableLabel": "id:discard",
+            "canHaveAttachments": false,
+            "shuffleOnLoad": true,
+            "onCardEnter": {
+                "controller": "player2",
+                "deckGroupId": "player2Discard"
+            },
+            "onCardLeave": {
+                "controller": "player2"
+            }
+        },
       "player1Hand": {
             "groupType": "hand",
             "label": "id:player1Hand", 
@@ -101,7 +129,7 @@
       "player2Base": {
             "groupType": "inPlay",
             "label": "id:player2Base", 
-            "tableLabel": "id:Base",
+            "tableLabel": "id:base",
             "canHaveAttachments": false,
             "onCardEnter": {
                 "controller": "player2",
@@ -120,7 +148,7 @@
         },
       "player2Leader": {
             "groupType": "inPlay",
-            "label": "id:Leader", 
+            "label": "id:player2leader", 
             "tableLabel": "id:leader",
             "canHaveAttachments": false,
             "onCardEnter": {
