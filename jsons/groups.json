@@ -44,7 +44,7 @@
         },
       "player2Discard": {
             "groupType": "deck",
-            "label": "id:player2discard", 
+            "label": "id:player2Discard", 
             "tableLabel": "id:discard",
             "canHaveAttachments": false,
             "shuffleOnLoad": true,
@@ -148,7 +148,7 @@
         },
       "player2Leader": {
             "groupType": "inPlay",
-            "label": "id:player2leader", 
+            "label": "id:player2Leader", 
             "tableLabel": "id:leader",
             "canHaveAttachments": false,
             "onCardEnter": {
