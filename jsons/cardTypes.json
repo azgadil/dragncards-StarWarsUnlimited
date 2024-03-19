@@ -1,4 +1,8 @@
 {
     "cardTypes": {
+         "Upgrade":          {"width": 0.72, "height": 1.0, "tokens": []},
+        "Unit":     {"width": 0.72, "height": 1.0, "tokens": []},
+        "Leader":          {"width": 0.72, "height": 1.0, "tokens": []},
+        "Event":         {"width": 0.72, "height": 1.0, "tokens": []}
     }
 }
