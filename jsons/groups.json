@@ -1,1 +1,132 @@
-
+{
+    "groups": {
+      "player1Deck": {
+            "groupType": "deck",
+            "label": "id:player1Deck", 
+            "tableLabel": "id:deck",
+            "canHaveAttachments": false,
+            "shuffleOnLoad": true,
+            "onCardEnter": {
+                "controller": "player1",
+                "deckGroupId": "player1Deck"
+            },
+            "onCardLeave": {
+                "controller": "player1"
+            }
+        },
+      "player2Deck": {
+            "groupType": "deck",
+            "label": "id:player2Deck", 
+            "tableLabel": "id:deck",
+            "canHaveAttachments": false,
+            "shuffleOnLoad": true,
+            "onCardEnter": {
+                "controller": "player2",
+                "deckGroupId": "player2Deck"
+            },
+            "onCardLeave": {
+                "controller": "player2"
+            }
+        },
+      "player1Hand": {
+            "groupType": "hand",
+            "label": "id:player1Hand", 
+            "tableLabel": "id:hand",
+            "canHaveAttachments": false,
+            "onCardEnter": {
+                "controller": "player1",
+                "peeking": {"player1": true}
+            }
+        },
+      "player2Hand": {
+            "groupType": "hand",
+            "label": "id:player2Hand", 
+            "tableLabel": "id:hand",
+            "canHaveAttachments": false,
+            "onCardEnter": {
+                "controller": "player2",
+                "peeking": {"player2": true}
+            }
+        },
+       "player1GroundArena": {
+            "groupType": "inPlay",
+            "label": "id:player1GroundArena", 
+            "tableLabel": "id:groundArena",
+            "canHaveAttachments": false,
+            "onCardEnter": {
+                "controller": "player1",
+                "peeking": {"player1": true}
+            }
+        },
+      "player2GroundArena": {
+            "groupType": "inPlay",
+            "label": "id:player2GroundArena", 
+            "tableLabel": "id:groundArena",
+            "canHaveAttachments": false,
+            "onCardEnter": {
+                "controller": "player2",
+                "peeking": {"player2": true}
+            }
+        }
+      "player1SpaceArena": {
+            "groupType": "inPlay",
+            "label": "id:player1SpaceArena", 
+            "tableLabel": "id:spaceArena",
+            "canHaveAttachments": true,
+            "onCardEnter": {
+                "controller": "player1",
+                "peeking": {"player1": true}
+            }
+        },
+      "player2SpaceArena": {
+            "groupType": "inPlay",
+            "label": "id:player2SpaceArena", 
+            "tableLabel": "id:spaceArena",
+            "canHaveAttachments": true,
+            "onCardEnter": {
+                "controller": "player2",
+                "peeking": {"player2": true}
+            }
+        },
+       "player1Base": {
+            "groupType": "inPlay",
+            "label": "id:player1Base", 
+            "tableLabel": "id:base",
+            "canHaveAttachments": false,
+            "onCardEnter": {
+                "controller": "player1",
+                "peeking": {"player1": true}
+            }
+        },
+      "player2Base": {
+            "groupType": "inPlay",
+            "label": "id:player2Base", 
+            "tableLabel": "id:Base",
+            "canHaveAttachments": false,
+            "onCardEnter": {
+                "controller": "player2",
+                "peeking": {"player2": true}
+            }
+        }
+       "player1Leader": {
+            "groupType": "inPlay",
+            "label": "id:player1Leader", 
+            "tableLabel": "id:leader",
+            "canHaveAttachments": false,
+            "onCardEnter": {
+                "controller": "player1",
+                "peeking": {"player1": true}
+            }
+        },
+      "player2Leader": {
+            "groupType": "inPlay",
+            "label": "id:Leader", 
+            "tableLabel": "id:leader",
+            "canHaveAttachments": false,
+            "onCardEnter": {
+                "controller": "player2",
+                "peeking": {"player2": true}
+            }
+        }
+    }
+}
