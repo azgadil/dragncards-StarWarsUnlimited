@@ -1,6 +1,5 @@
 {
     "cardBacks": {
-        "Player Card":    {"width": 0.72, "height": 1.0, "imageUrl": "https://i.imgur.com/UAqpqU0.png"},
-        "Leader Card":    {"width": 0.72, "height": 1.0, "imageUrl": "https://i.imgur.com/9PZOzY3.png"}
+        "Player Card":    {"width": 0.72, "height": 1.0, "imageUrl": "https://i.imgur.com/UAqpqU0.png"}
         }
 }
