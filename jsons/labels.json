@@ -1,10 +1,16 @@
 {
   "labels": {
+    "abiiityDepleted": {
+        "English": "Ability depleted this turn"
+    },
     "allHandsVisible" : {
             "English": "All Hands Visible"
     },
     "base": {
       "English": "Base"
+    },
+    "damage": {
+        "English": "Damage"
     },
     "deck": {
         "English": "Deck"
@@ -14,6 +20,9 @@
     },
     "draw": {
       "English": "Draw"
+    },
+    "epicDepleted": {
+      "English": "Epic depleted this game"
     },
     "hand": {
       "English": "Hand"
