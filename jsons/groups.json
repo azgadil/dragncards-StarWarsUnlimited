@@ -64,6 +64,9 @@
             "onCardEnter": {
                 "controller": "player1",
                 "peeking": {"player1": true}
+            },
+            "onCardLeave": {
+                "controller": "player1"
             }
         },
       "player2Hand": {
@@ -74,46 +77,106 @@
             "onCardEnter": {
                 "controller": "player2",
                 "peeking": {"player2": true}
+            },
+            "onCardLeave": {
+                "controller": "player2"
             }
         },
-       "player1GroundArena": {
+       "player1GroundArena1": {
             "groupType": "inPlay",
-            "label": "id:player1GroundArena", 
+            "label": "id:player1GroundArena1", 
             "tableLabel": "id:groundArena",
             "canHaveAttachments": false,
             "onCardEnter": {
-                "controller": "player1",
-                "peeking": {"player1": true}
+                "controller": "player1"
+            },
+            "onCardLeave": {
+                "controller": "player1"
             }
         },
-      "player2GroundArena": {
+      "player2GroundArena1": {
             "groupType": "inPlay",
-            "label": "id:player2GroundArena", 
+            "label": "id:player2GroundArena1", 
             "tableLabel": "id:groundArena",
             "canHaveAttachments": false,
             "onCardEnter": {
-                "controller": "player2",
-                "peeking": {"player2": true}
+                "controller": "player2"
+            },
+            "onCardLeave": {
+                "controller": "player2"
             }
         },
-      "player1SpaceArena": {
+       "player1GroundArena2": {
             "groupType": "inPlay",
-            "label": "id:player1SpaceArena", 
+            "label": "id:player1GroundArena2", 
+            "tableLabel": "id:groundArena",
+            "canHaveAttachments": false,
+            "onCardEnter": {
+                "controller": "player1"
+            },
+            "onCardLeave": {
+                "controller": "player1"
+            }
+        },
+      "player2GroundArena2": {
+            "groupType": "inPlay",
+            "label": "id:player2GroundArena2", 
+            "tableLabel": "id:groundArena",
+            "canHaveAttachments": false,
+            "onCardEnter": {
+                "controller": "player2"
+            },
+            "onCardLeave": {
+                "controller": "player2"
+            }
+        },
+      "player1SpaceArena1": {
+            "groupType": "inPlay",
+            "label": "id:player1SpaceArena1", 
             "tableLabel": "id:spaceArena",
             "canHaveAttachments": true,
             "onCardEnter": {
-                "controller": "player1",
-                "peeking": {"player1": true}
+                "controller": "player1"
+            },
+            "onCardLeave": {
+                "controller": "player1"
             }
         },
-      "player2SpaceArena": {
+      "player2SpaceArena1": {
             "groupType": "inPlay",
-            "label": "id:player2SpaceArena", 
+            "label": "id:player2SpaceArena1", 
             "tableLabel": "id:spaceArena",
             "canHaveAttachments": true,
             "onCardEnter": {
-                "controller": "player2",
-                "peeking": {"player2": true}
+                "controller": "player2"
+            },
+            "onCardLeave": {
+                "controller": "player2"
+            }
+        },
+ 	"player1SpaceArena2": {
+        "groupType": "inPlay",
+        "label": "id:player1SpaceArena2", 
+        "tableLabel": "id:spaceArena",
+        "canHaveAttachments": true,
+        "onCardEnter": {
+            "controller": "player1",
+            "peeking": {"player1": true}
+        },
+        "onCardLeave": {
+            "controller": "player1"
+        }
+    },
+ 	"player2SpaceArena2": {
+            "groupType": "inPlay",
+            "label": "id:player2SpaceArena2", 
+            "tableLabel": "id:spaceArena",
+            "canHaveAttachments": true,
+            "onCardEnter": {
+                "controller": "player2"
+            },
+            "onCardLeave": {
+                "controller": "player2"
             }
         },
        "player1Base": {
@@ -122,8 +185,7 @@
             "tableLabel": "id:base",
             "canHaveAttachments": false,
             "onCardEnter": {
-                "controller": "player1",
-                "peeking": {"player1": true}
+                "controller": "player1"
             }
         },
       "player2Base": {
@@ -132,8 +194,7 @@
             "tableLabel": "id:base",
             "canHaveAttachments": false,
             "onCardEnter": {
-                "controller": "player2",
-                "peeking": {"player2": true}
+                "controller": "player2"
             }
         },
        "player1Leader": {
@@ -142,8 +203,10 @@
             "tableLabel": "id:leader",
             "canHaveAttachments": false,
             "onCardEnter": {
-                "controller": "player1",
-                "peeking": {"player1": true}
+                "controller": "player1"
+            },
+            "onCardLeave": {
+                "controller": "player1"
             }
         },
       "player2Leader": {
@@ -152,8 +215,34 @@
             "tableLabel": "id:leader",
             "canHaveAttachments": false,
             "onCardEnter": {
-                "controller": "player2",
-                "peeking": {"player2": true}
+                "controller": "player2"
+            },
+            "onCardLeave": {
+                "controller": "player1"
+            }
+        },
+	"player1Resource": {
+            "groupType": "inPlay",
+            "label": "id:player1Resource", 
+            "tableLabel": "id:leader",
+            "canHaveAttachments": false,
+            "onCardEnter": {
+                "controller": "player1"
+            },
+            "onCardLeave": {
+                "controller": "player1"
+            }
+        },
+        "player2Resource": {
+            "groupType": "inPlay",
+            "label": "id:player2Resource", 
+            "tableLabel": "id:leader",
+            "canHaveAttachments": false,
+            "onCardEnter": {
+                "controller": "player2"
+            },
+            "onCardLeave": {
+                "controller": "player1"
             }
         }
     }

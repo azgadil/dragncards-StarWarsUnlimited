@@ -1,4 +1,23 @@
 {
     "topBarCounters": {
+        "shared": [
+            {
+                "label": "id:round",
+                "gameProperty": "round",
+                "imageUrl": "https://dragncards-lotrlcg.s3.amazonaws.com/tokens/time.png"
+            }
+        ],
+    "player": [
+        {
+            "label": "id:baseHealth",
+            "playerProperty": "baseHealth",
+            "imageUrl": "villainy.jpg"
+        },
+        {
+            "label": "id:handSize",
+            "playerProperty": "handSize",
+            "imageUrl": "heroism.jpg"
+        }
+    ]
     }
 }

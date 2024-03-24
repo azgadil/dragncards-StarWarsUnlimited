@@ -1,13 +1,40 @@
 {
   "labels": {
-    "abiiityDepleted": {
+    "abilityDepleted": {
         "English": "Ability depleted this turn"
+    },
+    "action": {
+        "English": "Action phase."
+    },
+    "actionEnd": {
+        "English": "End of the Action phase."
+    },
+    "actionStart": {
+        "English": "Start of the Action phase."
+    },
+    "actionAttack": {
+        "English": "Attack with a unit in play."
+    },
+    "actionAbility": {
+        "English": "Use an ability on a card in play."
+    },
+    "actionInitiative": {
+        "English": "Take the initiative."
+    },
+    "actionPass": {
+        "English": "Pass."
+    },
+    "actionPlay": {
+        "English": "Play a card from hand."
     },
     "allHandsVisible" : {
             "English": "All Hands Visible"
     },
     "base": {
       "English": "Base"
+    },
+    "baseHealth": {
+        "English": "Base Health"
     },
     "damage": {
         "English": "Damage"
@@ -24,14 +51,17 @@
     "epicDepleted": {
       "English": "Epic depleted this game"
     },
+    "groundArena": {
+        "English": "Ground Arena"
+    },
     "hand": {
       "English": "Hand"
     },
+    "handSize": {
+        "English": "Hand Size"
+    },
     "hp": {
         "English": "HP"
-    },
-    "groundArena": {
-      "English": "Ground Arena"
     },
     "leader": {
       "English": "Leader"
@@ -51,14 +81,23 @@
     "player1Hand": {
             "English": "Player 1 Hand"
     },
-      "player1GroundArena" : {
-            "English": "Player 1 Ground Arena"
+      "player1GroundArena1" : {
+            "English": "Player 1 Ground Arena 1"
+    },
+    "player1GroundArena2" : {
+        "English": "Player 1 Ground Arena 2"
     },
     "player1Leader": {
             "English": "Player 1 Leader"
     },
-    "player1SpaceArena" : {
-            "English": "Player 1 Space Arena"
+    "player1Resource": {
+        "English": "Player 2 Resource Zone"
+    },
+    "player1SpaceArena1" : {
+            "English": "Player 1 Space Arena 1"
+    },
+    "player1SpaceArena2" : {
+        "English": "Player 1 Space Arena 2"
     },
     "player2Base": {
             "English": "Player 1 Base"
@@ -72,23 +111,59 @@
     "player2Hand": {
             "English": "Player 1 Hand"
     },
-    "player2GroundArena" : {
-            "English": "Player 1 Ground Arena"
+    "player2GroundArena1" : {
+            "English": "Player 1 Ground Arena 1"
+    }, 
+    "player2GroundArena2" : {
+        "English": "Player 1 Ground Arena 2"
     },
     "player2Leader": {
             "English": "Player 1 Leader"
     },
-      "player2SpaceArena" : {
-            "English": "Player 1 Space Arena"
+    "player2Resource": {
+        "English": "Player 2 Resource Zone"
+    },
+    "player2SpaceArena1" : {
+            "English": "Player 1 Space Arena 1"
+    },
+    "player2SpaceArena2" : {
+          "English": "Player 1 Space Arena 2"
     },
     "power": {
         "English": "Power"
     },
+    "priority": {
+    "English": "The player whose turn to take an Action"
+    },
+    "regroup": {
+        "English": "The Regroup Phase"
+    },
+    "regroupDraw": {
+        "English": "Draw two cards."
+    },
+    "regroupEnd": {
+        "English": "End of the regroup phase."
+    },
+    "regroupResource": {
+        "English": "Resource a card."
+    },
+    "regroupReady": {
+        "English": "Ready call cards in play."
+    },
+    "regroupStart": {
+        "English": "Start of the regroup phase."
+    },
+    "round": {
+        "English": "Round"
+    },
+    "setup": {
+        "English": "Setup.  Option to Mulligan.  Then Draw 6 and Resource 2."
+    },
     "spaceArena": {
-      "English": "Space Arena"
+        "English": "Space Arena."
     },
     "shuffleGroupIntoDeck": {
       "English": "Shuffle Group Into Deck"
-}
+    }      
   }
 }

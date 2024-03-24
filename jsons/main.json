@@ -5,6 +5,6 @@
     "maxPlayers": 4,
     "firstPlayerImageUrl": "https://i.imgur.com/v67glJPb.jpg",
     "backgroundUrl": "https://i.imgur.com/sylTBgbb.jpg",
-    "loadPreBuiltOnNewGame": true,
+    "loadPreBuiltOnNewGame": false,
     "vacantSeatOnNewGame": true
 }

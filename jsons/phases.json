@@ -1,4 +1,8 @@
 {
     "phases": {
+        "Setup":{"label": "setup", "height": "10%"},
+        "Action":{"label": "action", "height": "50%"},
+        "Regroup": {"label": "regroup", "height": "25%"}
+
     }
 }

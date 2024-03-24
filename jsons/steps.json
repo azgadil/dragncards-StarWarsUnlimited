@@ -1,4 +1,17 @@
 {
     "steps": {
+        "GameSetup": {"phaseId": "Setup", "label": "id:setup"},
+        "ActionStart": {"phaseId": "Action", "label": "id:actionStart"},
+        "Ability": {"phaseId": "Action", "label": "id:actionAbility"},
+        "Attack": {"phaseId": "Action", "label": "id:actionAttack"},
+        "TakeInitiative": {"phaseId": "Action", "label":"id:actionInitiative"},
+        "Pass": {"phaseId": "Action", "label": "id:actionPass"},
+        "PlayACard": {"phaseId": "Action", "label": "id:actionPlay"},
+        "ActionEnd": {"phaseId": "Action", "label": "id:actionEnd"},
+        "RegroupStart": {"phaseId": "Regroup", "label": "id:regroupStart"},
+        "Draw": {"phaseId": "Regroup", "label": "id:regroupDraw"},
+        "Resource": {"phaseId": "Regroup", "label": "id:regroupResource"},
+        "Ready": {"phaseId": "Regroup", "label": "id:regroupReady"},
+        "RegroupEnd": {"phaseId": "Regroup", "label": "id:regroupEnd"}
     }
 }
