@@ -7,19 +7,16 @@
             "chat": {"left": "63%", "top": "84%", "width": "25%", "height": "16%"},
             "browse": {"type": "fan", "direction": "horizontal", "left": "0%", "top": "48%", "width": "88%", "height": "16%"},
             "regions": {
-                "player2GroundArena1": {"groupId": "player2GroundArena1", "type": "row", "direction": "horizontal", "left": "0%", "top": "0%", "width": "38%", "height": "16%"},
-                "Player2GroundArena2": {"groupId": "player2GroundArena2", "type": "pile", "direction": "horizontal", "left": "38%", "top": "0%", "width": "12%", "height": "16%"},
-                "Player2SpaceArena1": {"groupId": "player2SpaceArena1", "type": "row", "direction": "horizontal", "left": "50%", "top":  "0%", "width": "38%", "height": "16%"},
-                "Player2SpaceArena2": {"groupId": "player2SpaceArena2", "type": "row", "direction": "horizontal", "left":  "0%", "top": "16%", "width": "44%", "height": "16%"},
-                "Player2Resource": {"groupId": "player1Resource", "type": "row", "direction": "horizontal", "left":  "0%", "top": "68%", "width": "32%", "height": "16%"},
-                "Player1GroundArena1": {"groupId": "player1GroundArena1", "type": "pile", "direction": "horizontal", "left": "32%", "top": "64%", "width": "12%", "height": "16%"},
-                "Player1GroundArena2": {"groupId": "player1GroundArena2", "type": "pile", "direction": "horizontal", "left": "44%", "top": "64%", "width": "12%", "height": "16%"},
-                "player1Resource": {"groupId": "player1Resource", "type": "row", "direction": "horizontal", "left": "56%", "top": "68%", "width": "32%", "height": "16%"},
-                "player1Hand": {"groupId": "player1Hand", "type": "fan", "direction": "horizontal", "left":  "0%", "top": "84%", "width": "39%", "height": "16%", "style": {"background": "rgba(0, 0, 0, 0.3)"}, "showMenu": true},
-                "player1Deck": {"groupId": "player1Deck", "type": "pile", "direction": "horizontal", "left": "39%", "top": "84%", "width":  "8%", "height": "16%", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
-                "player1Base": {"groupId": "player1Base", "type": "pile", "direction": "horizontal", "left": "47%", "top": "84%", "width":  "8%", "height": "16%", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
-                "player1Leader": {"groupId": "player1Leader", "type": "pile", "direction": "horizontal", "left": "55%", "top": "84%", "width":  "8%", "height": "16%", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
-                "player1Discard": {"groupId": "player1Discard", "type": "row", "direction": "horizontal", "left": "88%", "top": "0%", "width": "12%", "height": "16%"}
+                "player2GroundArena1": {"groupId": "player2GroundArena1", "type": "row", "direction": "horizontal", "left": "0%", "top": "32%", "width": "38%", "height": "16%"},
+                "Player2GroundArena2": {"groupId": "player2GroundArena2", "type": "row", "direction": "horizontal", "left": "0%", "top": "32%", "width": "38%", "height": "16%"},
+                "Player2SpaceArena1": {"groupId": "player2SpaceArena1", "type": "row", "direction": "horizontal", "left": "16%", "top":  "16%", "width": "38%", "height": "16%"},
+                "Player2SpaceArena2": {"groupId": "player2SpaceArena2", "type": "row", "direction": "horizontal", "left":  "16%", "top": "16%", "width": "38%", "height": "16%"},
+                "Player2Resource": {"groupId": "player2Resource", "type": "fan", "direction": "horizontal", "left":  "16%", "top": "48%", "width": "32%", "height": "16%"},
+                "player2Base": {"groupId": "player2Base", "type": "pile", "direction": "horizontal", "left": "32%", "top": "48%", "width":  "16%", "height": "16%", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
+                "player2Leader": {"groupId": "player2Leader", "type": "pile", "direction": "horizontal", "left": "16%", "top": "48%", "width":  "16%", "height": "16%", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
+                "player2Hand": {"groupId": "player2Hand", "type": "fan", "direction": "horizontal", "left":  "16%", "top": "84%", "width": "50%", "height": "16%", "style": {"background": "rgba(0, 0, 0, 0.3)"}, "showMenu": true},
+                "player2Deck": {"groupId": "player2Deck", "type": "pile", "direction": "horizontal", "left": "68%", "top": "84%", "width":  "8%", "height": "16%", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
+                "player2Discard": {"groupId": "player2Discard", "type": "pile", "direction": "horizontal", "left": "0%", "top": "84%", "width": "8%", "height": "16%"}
             }
         }
     }
