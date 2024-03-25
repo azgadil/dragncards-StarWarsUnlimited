@@ -1,5 +1,7 @@
 {
     "closeRoomOptions": [
+        {"label": "id:markPlayer1Leader", "actionList": ["SET", "/victoryState", "gameOver"]},
+        {"label": "id:markAsIncomplete", "actionList": ["SET", "/victoryState", "Incomplete"]}
         
     ]
 }

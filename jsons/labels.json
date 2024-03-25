@@ -34,13 +34,19 @@
       "English": "Base"
     },
     "baseHealth": {
-        "English": "Base Health"
+        "English": "Amount of health remaining on a players base."
+    },
+    "closeRoom": {
+        "English": "Close the room."
     },
     "damage": {
         "English": "Damage"
     },
     "deck": {
         "English": "Deck"
+    },
+    "deckSize": {
+        "English": "Number of cards remaining in a Players Deck"
     },
     "discard": {
         "English": "Discard"
@@ -51,6 +57,9 @@
     "epicDepleted": {
       "English": "Epic depleted this game"
     },
+    "firstPlayer": {
+        "English": "The player who started 1 with initiative."
+    },
     "groundArena": {
         "English": "Ground Arena"
     },
@@ -58,13 +67,22 @@
       "English": "Hand"
     },
     "handSize": {
-        "English": "Hand Size"
+        "English": "Number of cards in a players hand."
     },
     "hp": {
         "English": "HP"
     },
     "leader": {
       "English": "Leader"
+    },
+    "markAsIncomplete": {
+        "English": "Incomplete"
+    },
+    "markPlayer1Leader": {
+        "English": "Planer 1 Wins"
+    },
+    "markPlayer2Leader": {
+        "English": "Planer 2 Wins"
     },
     "onlyShowMyHand" : {
             "English": "Only Show My Hand"
@@ -109,7 +127,7 @@
             "English": "Player 1 Deck"
       },
     "player2Hand": {
-            "English": "Player 1 Hand"
+            "English": "Player 2 Hand"
     },
     "player2GroundArena1" : {
             "English": "Player 1 Ground Arena 1"
@@ -135,6 +153,9 @@
     "priority": {
     "English": "The player whose turn to take an Action"
     },
+    "resource": {
+        "English":"Resources test label"
+    },
     "regroup": {
         "English": "The Regroup Phase"
     },
@@ -155,6 +176,10 @@
     },
     "round": {
         "English": "Round"
+    },
+
+    "secondPlayer": {
+        "English": "The player who did not start with initiative."
     },
     "setup": {
         "English": "Setup.  Option to Mulligan.  Then Draw 6 and Resource 2."

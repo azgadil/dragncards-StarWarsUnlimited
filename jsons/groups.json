@@ -218,7 +218,7 @@
                 "controller": "player2"
             },
             "onCardLeave": {
-                "controller": "player1"
+                "controller": "player2"
             }
         },
 	"player1Resource": {
@@ -236,7 +236,7 @@
         "player2Resource": {
             "groupType": "inPlay",
             "label": "id:player2Resource", 
-            "tableLabel": "id:leader",
+            "tableLabel": "id:resource",
             "canHaveAttachments": false,
             "onCardEnter": {
                 "controller": "player2"

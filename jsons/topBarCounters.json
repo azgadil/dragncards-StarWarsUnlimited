@@ -11,12 +11,17 @@
         {
             "label": "id:baseHealth",
             "playerProperty": "baseHealth",
-            "imageUrl": "villainy.jpg"
+            "imageUrl": "https://i.imgur.com/cT1j88R.jpeg"
         },
         {
             "label": "id:handSize",
             "playerProperty": "handSize",
-            "imageUrl": "heroism.jpg"
+            "imageUrl": "https://i.imgur.com/FYV13vd.jpeg"
+        },
+        {
+            "label": "id:deckSize",
+            "playerProperty": "deckSize",
+            "imageUrl": "https://i.imgur.com/e67Yaxp.jpeg"
         }
     ]
     }
