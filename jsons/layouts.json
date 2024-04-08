@@ -7,9 +7,9 @@
             "chat": {"left": "75%", "top": "84%", "width": "25%", "height": "16%"},
             "browse": {"type": "fan", "direction": "horizontal", "left": "0%", "top": "48%", "width": "88%", "height": "16%"},
             "regions": {
-                "player2GroundArena1": {"groupId": "player2GroundArena1", "type": "row", "direction": "horizontal", "left": "0%", "top": "3%", "width": "21%", "height": "16%"},
+                "player2GroundArena1": {"groupId": "player2GroundArena1", "type": "row", "direction": "horizontal", "left": "0%", "top": "3%", "width": "21%", "height": "16%"}, 
                 "Player2GroundArena2": {"groupId": "player2GroundArena2", "type": "row", "direction": "horizontal", "left": "0%", "top": "19%", "width": "37%", "height": "16%"},
-                "Player2SpaceArena1": {"groupId": "player2SpaceArena1", "type": "row", "direction": "horizontal", "left": "78%", "top":  "3%", "width": "21%", "height": "16%"},
+                "Player2SpaceArena1": {"groupId": "player2SpaceArena1", "type": "row", "direction": "horizontal", "left": "78%", "top":  "3%", "width": "21%", "height": "16%", "style": {"background": {"imageUrl": "https://cdn.discordapp.com/attachments/1166934687453814795/1220847471442264114/hyperspace-treatment.png?ex=6622e2cf&is=66106dcf&hm=6a5ae4bcb0b81a22c9467f2f9689f03ba5addcf90abaa542846f2f8a785c456b&"}}},
                 "Player2SpaceArena2": {"groupId": "player2SpaceArena2", "type": "row", "direction": "horizontal", "left":  "62%", "top": "19%", "width": "37%", "height": "16%"},
                 "Player2Resource": {"groupId": "player2Resource", "type": "fan", "direction": "horizontal", "left":  "26%", "top": "0%", "width": "64%", "height": "8%", "style": {"background": "0, 0, 0, 0.1"}, "showMenu": true},
                 "player2Base": {"groupId": "player2Base", "type": "row", "direction": "horizontal", "left": "46%", "top": "14%", "width":  "16%", "height": "14%"},

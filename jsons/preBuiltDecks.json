@@ -1,7 +1,7 @@
 {
     "preBuiltDecks": {
         "DarthVaderStarter": {
-            "label": "DarthVaderStarter",
+            "label": "Darth Vader Starter",
             "cards": [
                 {
                     "loadGroupId": "playerNLeader",
@@ -180,7 +180,7 @@
             ]
         },
         "LukeSkywalkerStarter": 
-         { "label": "LukeSkywalkerStarter",
+         { "label": "Luke Skywalker Starter",
          "cards": 
          [
             {

@@ -1,5 +1,8 @@
 {
     "clearTableOptions": [
+        {"label": "id:markPlayer1Leader", "actionList": ["SET", "/victoryState", "gameOver"]},
+        {"label": "id:markPlayer2Leader", "actionList": ["SET", "/victoryState", "gameOver"]},
+        {"label": "id:markAsIncomplete", "actionList": ["SET", "/victoryState", "Incomplete"]}
       
     ]
 }

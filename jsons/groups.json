@@ -209,7 +209,8 @@
                 "currentSide": "A"
             },
             "onCardLeave": {
-                "controller": "player1"
+                "controller": "player1",
+                "currentSide": "B"
             }
         },
       "player2Leader": {
@@ -222,7 +223,8 @@
                 "currentSide": "A"
             },
             "onCardLeave": {
-                "controller": "player2"
+                "controller": "player2",
+                "currentSide": "B"
             }
         },
 	"player1Resource": {

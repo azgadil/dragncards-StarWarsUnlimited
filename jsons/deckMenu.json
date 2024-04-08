@@ -1,6 +1,8 @@
 {
     "deckMenu": {
         "deckLists": [
+            {"deckListId":"LukeSkywalkerStarter", "label": "Luke Skywalker Vigilance/Cunning Starter"},
+            {"deckListId":"DarthVaderStarter", "label": "Darth Vader Aggression/Command Starter"}
            
 	    
         ]

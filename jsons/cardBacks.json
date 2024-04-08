@@ -1,5 +1,6 @@
 {
     "cardBacks": {
-        "player":    {"width": 0.72, "height": 1.0, "imageUrl": "https://i.imgur.com/KHmnwGH.jpeg"}
+        "resourceBack":    {"width": 0.72, "height": 1.0, "imageUrl": "https://i.imgur.com/KHmnwGH.jpeg"},
+        "player" : {"width": 0.72, "height": 1.0, "imageUrl": "https://cdn.discordapp.com/attachments/1166934687453814795/1195423089492774974/SWU_card_back.png?ex=6622ad82&is=66103882&hm=a0889e558e9cbdce509538d8737693a908fd14e9ca8de41beafa5330c97dfe8a&"}
         }
 }
