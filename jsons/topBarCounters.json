@@ -9,19 +9,9 @@
         ],
     "player": [
         {
-            "label": "id:baseHealth",
-            "playerProperty": "baseHealth",
-            "imageUrl": "https://i.imgur.com/cT1j88R.jpeg"
-        },
-        {
             "label": "id:handSize",
             "playerProperty": "handSize",
-            "imageUrl": "https://i.imgur.com/FYV13vd.jpeg"
-        },
-        {
-            "label": "id:deckSize",
-            "playerProperty": "deckSize",
-            "imageUrl": "https://i.imgur.com/e67Yaxp.jpeg"
+            "imageUrl": "https://dragncards-wotr.s3.amazonaws.com/tokens/HandSize.png"
         }
     ]
     }

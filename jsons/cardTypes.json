@@ -1,10 +1,10 @@
 {
     "cardTypes": {
-        "Base":          {"width": 1.00, "height": 0.72, "tokens": ["damage", "epicDepleted","abilityDepleted"]},
+        "Base":          {"width": 1.44, "height": 1.00, "tokens": ["damage", "epicDepleted","abilityDepleted"]},
         "Upgrade":       {"width": 0.72, "height": 1.0, "tokens": []},
-        "Unit":          {"width": 0.72, "height": 1.0, "tokens": ["damage"]},
-        "Leader":        {"width": 1.00, "height": 0.72, "tokens": ["epicDepleted","abilityDepleted"]},
+        "Unit":          {"width": 0.72, "height": 1.0, "tokens": ["damage","experience","shield","power","hp"]},
+        "Leader":        {"width": 1.44, "height": 1.00, "tokens": ["epicDepleted","abilityDepleted"]},
         "Event":         {"width": 0.72, "height": 1.0, "tokens": []},
-        "LeaderUnit":    {"width": 0.72, "height": 1.0, "tokens": ["damage","abilityDepleted"]} 
+        "LeaderUnit":    {"width": 0.72, "height": 1.0, "tokens": ["damage","abilityDepleted","experience","shield","power","hp"]} 
     }
 }

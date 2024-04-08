@@ -36,7 +36,8 @@
             "shuffleOnLoad": true,
             "onCardEnter": {
                 "controller": "player1",
-                "deckGroupId": "player1Discard"
+                "deckGroupId": "player1Discard",
+                "currentSide": "A"
             },
             "onCardLeave": {
                 "controller": "player1"
@@ -50,7 +51,8 @@
             "shuffleOnLoad": true,
             "onCardEnter": {
                 "controller": "player2",
-                "deckGroupId": "player2Discard"
+                "deckGroupId": "player2Discard",
+                "currentSide": "A"
             },
             "onCardLeave": {
                 "controller": "player2"
@@ -86,7 +88,7 @@
             "groupType": "inPlay",
             "label": "id:player1GroundArena1", 
             "tableLabel": "id:groundArena",
-            "canHaveAttachments": false,
+            "canHaveAttachments": true,
             "onCardEnter": {
                 "controller": "player1"
             },
@@ -98,7 +100,7 @@
             "groupType": "inPlay",
             "label": "id:player2GroundArena1", 
             "tableLabel": "id:groundArena",
-            "canHaveAttachments": false,
+            "canHaveAttachments": true,
             "onCardEnter": {
                 "controller": "player2"
             },
@@ -110,7 +112,7 @@
             "groupType": "inPlay",
             "label": "id:player1GroundArena2", 
             "tableLabel": "id:groundArena",
-            "canHaveAttachments": false,
+            "canHaveAttachments": true,
             "onCardEnter": {
                 "controller": "player1"
             },
@@ -122,7 +124,7 @@
             "groupType": "inPlay",
             "label": "id:player2GroundArena2", 
             "tableLabel": "id:groundArena",
-            "canHaveAttachments": false,
+            "canHaveAttachments": true,
             "onCardEnter": {
                 "controller": "player2"
             },
@@ -203,7 +205,8 @@
             "tableLabel": "id:leader",
             "canHaveAttachments": false,
             "onCardEnter": {
-                "controller": "player1"
+                "controller": "player1",
+                "currentSide": "A"
             },
             "onCardLeave": {
                 "controller": "player1"
@@ -215,7 +218,8 @@
             "tableLabel": "id:leader",
             "canHaveAttachments": false,
             "onCardEnter": {
-                "controller": "player2"
+                "controller": "player2",
+                "currentSide": "A"
             },
             "onCardLeave": {
                 "controller": "player2"
@@ -224,13 +228,15 @@
 	"player1Resource": {
             "groupType": "inPlay",
             "label": "id:player1Resource", 
-            "tableLabel": "id:leader",
+            "tableLabel": "id:resource",
             "canHaveAttachments": false,
             "onCardEnter": {
-                "controller": "player1"
+                "controller": "player1",
+                "currentSide": "B"
             },
             "onCardLeave": {
-                "controller": "player1"
+                "controller": "player1",
+                "currentSide": "A"
             }
         },
         "player2Resource": {
@@ -239,10 +245,12 @@
             "tableLabel": "id:resource",
             "canHaveAttachments": false,
             "onCardEnter": {
-                "controller": "player2"
+                "controller": "player2",
+                "currentSide": "B"
             },
             "onCardLeave": {
-                "controller": "player1"
+                "controller": "player2",
+                "currentSide": "A"
             }
         }
     }

@@ -1,4 +1,16 @@
 {
     "textBoxes": {
+        "player1ResourceAvail": {
+            "content": 0
+        },
+        "player1ResourceSpent": {
+            "content": 0
+        },
+        "divider": {
+            "content": ""
+        },
+        "divider2": {
+            "content": ""
+        }
     }
 }

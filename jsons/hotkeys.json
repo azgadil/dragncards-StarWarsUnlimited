@@ -1,4 +1,32 @@
 {
     "hotkeys": {
+        "token":
+        [ 
+        {"key": "1", "tokenType": "damage", "label": "id:damage"},
+        {"key": "2", "tokenType": "power", "label": "id:power"},
+        {"key": "3", "tokenType": "hp", "label": "id:hp"},
+        {"key": "4", "tokenType": "epicDepleted", "label": "id:epicDepleted"},
+        {"key": "5", "tokenType": "abilityDepleted", "label": "id:abilityDepleted"},
+        {"key": "6", "tokenType": "experience", "label": "id:experience"},
+        {"key": "7", "tokenType": "shield", "label": "id:shield"}
+        ],
+        "game": [
+            {"key": "D", "actionList": "drawCard", "label": "id:drawCard"},
+            {"key": "Shift+N", "actionList": "newRound", "label": "id:drawCardsAndStartNewRound"},
+            {"key": "Shift+R", "actionList": "readyAll", "label": "id:readyAll"}
+        ],
+        "card": 
+        [
+            {"key": "F", "actionList": "flipCard", "label": "id:flip"},
+            {"key": "C", "actionList": "actionPlay", "label": "id:actionPlay"},
+            {"key": "E", "actionList": "discardCard", "label": "id:discardCard"},
+            {"key": "R", "actionList": "toggleRotate", "label": "id:rotateCard"},
+            {"key": "W", "actionList": "resourceCard", "label": "id:resourceCard"},
+            {"key": "A", "actionList": "actionAttack", "label": "id:actionAttack"},
+            {"key": "B", "actionList": "actionAbility", "label": "idactionAbility"},
+            {"key": "Z", "actionList": "actionPass", "label": "id:actionPass"},
+            {"key": "X", "actionList": "actionInitiative", "label": "id:actionInitiative"}
+        ]
     }
+
 }

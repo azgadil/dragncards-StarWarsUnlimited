@@ -61,7 +61,6 @@
             ["LOG", "$ALIAS_N", " shuffled the cards in ", "$ORIG_GROUP.name", " into their corresponding decks."]
         ],
     "postSetLayout": [
-            ["SET_NUM_BLUE_RED", "$GAME.numBlue", "$GAME.numRed"],
             ["HIGHLIGHT_CURRENT_PLAYER"]
         ]
   }

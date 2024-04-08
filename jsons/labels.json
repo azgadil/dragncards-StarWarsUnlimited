@@ -42,6 +42,9 @@
     "damage": {
         "English": "Damage"
     },
+    "DarthVaderStarter": {
+        "English": "Darth Vader Starter Deck"
+    },
     "deck": {
         "English": "Deck"
     },
@@ -51,14 +54,29 @@
     "discard": {
         "English": "Discard"
     },
+    "discardCard": {
+        "English": "Discard a card and move it to the discard pile."
+    },
     "draw": {
       "English": "Draw"
+    },
+    "drawCard": {
+        "English": "Draw a card."
+    },
+    "drawCardsAndStartNewRound": {
+        "English": "Draw cards and start new round."
     },
     "epicDepleted": {
       "English": "Epic depleted this game"
     },
+    "experience": {
+      "English" : "Experience Token"  
+    },
     "firstPlayer": {
         "English": "The player who started 1 with initiative."
+    },
+    "flip": {
+        "English": "Flip the current card."
     },
     "groundArena": {
         "English": "Ground Arena"
@@ -84,8 +102,17 @@
     "markPlayer2Leader": {
         "English": "Planer 2 Wins"
     },
+    "myPerspective": {
+        "English": "Ground left, Space Right" 
+    },
     "onlyShowMyHand" : {
-            "English": "Only Show My Hand"
+            "English": "First player view/layout."
+    },
+    "onlyShowMyHand2" : {
+            "English": "Second player view/layout."
+    },
+    "playCard": {
+        "English": "Play a card from hand."
     },
     "player1Base": {
             "English": "Player 1 Base"
@@ -154,7 +181,10 @@
     "English": "The player whose turn to take an Action"
     },
     "resource": {
-        "English":"Resources test label"
+        "English":"Resources"
+    },
+    "readyAll": {
+        "English": "Ready all cards in play and resources"
     },
     "regroup": {
         "English": "The Regroup Phase"
@@ -174,21 +204,31 @@
     "regroupStart": {
         "English": "Start of the regroup phase."
     },
+    "resourceCard": 
+    {
+        "English": "Resource a card."
+    },
+    "rotateCard": {
+        "English": "Rotate a card."
+    },
     "round": {
         "English": "Round"
     },
-
     "secondPlayer": {
         "English": "The player who did not start with initiative."
     },
     "setup": {
         "English": "Setup.  Option to Mulligan.  Then Draw 6 and Resource 2."
     },
+    "shield": 
+    {
+        "English": "Sheild Token"
+    },
     "spaceArena": {
         "English": "Space Arena."
     },
     "shuffleGroupIntoDeck": {
       "English": "Shuffle Group Into Deck"
-    }      
+    }
   }
 }

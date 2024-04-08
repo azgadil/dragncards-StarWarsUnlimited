@@ -1,4 +1,375 @@
 {
     "preBuiltDecks": {
+        "DarthVaderStarter": {
+            "label": "DarthVaderStarter",
+            "cards": [
+                {
+                    "loadGroupId": "playerNLeader",
+                    "databaseId": "SOR_010",
+                    "quantity": 1,
+                    "_name": "Darth Vader"
+                },
+                {
+                    "loadGroupId": "playerNBase",
+                    "databaseId": "SOR_023",
+                    "quantity": 1,
+                    "_name": "Command Center"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_232",
+                    "quantity": 2,
+                    "_name": "AT-ST"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_083",
+                    "quantity": 3,
+                    "_name": "Superlaster Technician"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_234",
+                    "quantity": 1,
+                    "_name": "Maximum Firepower"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_228",
+                    "quantity": 2,
+                    "_name": "Viper Probe Droid"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_086",
+                    "quantity": 1,
+                    "_name":  "Gladiator Star Destroyer"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_128",
+                    "quantity": 3,
+                    "_name": "Death Star Stormtropper"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_135",
+                    "quantity": 1,
+                    "_name": "Emperor Palpatine"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_123",
+                    "quantity": 1,
+                    "_name": "Recruit"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_172",
+                    "quantity": 3,
+                    "_name": "Open Fire"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_084",
+                    "quantity": 3,
+                    "_name": "Grand Moff Tarkin"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_229",
+                    "quantity": 3,
+                    "_name": "Cell Block Guard"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_092",
+                    "quantity": 1,
+                    "_name": "Overwhelming Barrage"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_132",
+                    "quantity": 3,
+                    "_name": "Imperial Intercepter"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_089",
+                    "quantity": 1,
+                    "_name": "Relentless"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_079",
+                    "quantity": 1,
+                    "_name": "Admiral Pliett"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_230",
+                    "quantity": 1,
+                    "_name": "General Veers"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_129",
+                    "quantity": 1,
+                    "_name": "Admiral Ozzel"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_088",
+                    "quantity": 1,
+                    "_name": "Blizzard Assualt AT-AT"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_227",
+                    "quantity": 2,
+                    "_name": "Snowtrooper Lieutenant"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_233",
+                    "quantity": 3,
+                    "_name": "I Am Your Father"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_136",
+                    "quantity": 3,
+                    "_name": "Vader's Lightsaber"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_226",
+                    "quantity": 3,
+                    "_name": "Admiral Motti"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_231",
+                    "quantity": 1,
+                    "_name": "TIE Advanced"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_130",
+                    "quantity": 2,
+                    "_name": "First Legion Snowtrooper"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_139",
+                    "quantity": 1,
+                    "_name": "Force Choke"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_225",
+                    "quantity": 2,
+                    "_name": "TIE/ln Fighter"
+                },
+                {
+                    "loadGroupId": "playerNDeck",
+                    "databaseId": "SOR_126",
+                    "quantity": 1,
+                    "_name": "Resupply"
+                }
+            ]
+        },
+        "LukeSkywalkerStarter": 
+         { "label": "LukeSkywalkerStarter",
+         "cards": 
+         [
+            {
+                "loadGroupId": "playerNLeader",
+                "databaseId": "SOR_005",
+                "quantity": 1,
+                "_name": "Luke Skywalker, Faithful Friend"
+            },
+            {
+                "loadGroupId": "playerNBase",
+                "databaseId": "SOR_029",
+                "quantity": 1,
+                "_name": "Administrative Tower"
+            },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_217",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_241",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_046",
+                "quantity": 3,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_238",
+                "quantity": 3,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_049",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_195",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_244",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_220",
+                "quantity": 2,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_242",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_078",
+                "quantity": 3,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_196",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_053",
+                "quantity": 3,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_066",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_236",
+                "quantity": 3,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_239",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_222",
+                "quantity": 2,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_074",
+                "quantity": 2,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_069",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_059",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_045",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_237",
+                "quantity": 3,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_048",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_198",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_189",
+                "quantity": 3,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_063",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_240",
+                "quantity": 3,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_194",
+                "quantity": 1,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_218",
+                "quantity": 2,
+                "_name": ""
+              },
+              {
+                "loadGroupId": "playerNDeck",
+                "databaseId": "SOR_044",
+                "quantity": 2,
+                "_name": ""
+              }
+            ]
+          }
     }
 }
