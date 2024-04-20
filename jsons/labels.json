@@ -90,6 +90,9 @@
     "hp": {
         "English": "HP"
     },
+    "initiative": {
+        "English": "Player with the initiative."
+    },
     "leader": {
       "English": "Leader"
     },
@@ -105,10 +108,13 @@
     "myPerspective": {
         "English": "Ground left, Space Right" 
     },
-    "onlyShowMyHand" : {
+    "onlyShowPlayer1" : {
             "English": "First player view/layout."
     },
-    "onlyShowMyHand2" : {
+    "onlyShowPlayer1Vertical" : {
+        "English": "First player view/vertical."
+    },
+    "onlyShowPlayer2" : {
             "English": "Second player view/layout."
     },
     "playCard": {
@@ -183,6 +189,9 @@
     "resource": {
         "English":"Resources"
     },
+    "ready": {
+        "English:": "Ready a card"
+    },
     "readyAll": {
         "English": "Ready all cards in play and resources"
     },
@@ -204,6 +213,9 @@
     "regroupStart": {
         "English": "Start of the regroup phase."
     },
+    "resourceTotal": {
+        "English": "A players total resources"    
+    },
     "resourceCard": 
     {
         "English": "Resource a card."
@@ -223,6 +235,9 @@
     "shield": 
     {
         "English": "Sheild Token"
+    },
+    "shuffleToBottom": {
+        "English": "Use the view, move to bottom repeat for all but the last card  to use shuffle into x"
     },
     "spaceArena": {
         "English": "Space Arena."

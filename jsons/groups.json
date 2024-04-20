@@ -8,7 +8,8 @@
             "shuffleOnLoad": true,
             "onCardEnter": {
                 "controller": "player1",
-                "deckGroupId": "player1Deck"
+                "deckGroupId": "player1Deck",
+                "discardGroupId": "player1Discard"
             },
             "onCardLeave": {
                 "controller": "player1"
@@ -22,7 +23,9 @@
             "shuffleOnLoad": true,
             "onCardEnter": {
                 "controller": "player2",
-                "deckGroupId": "player2Deck"
+                "deckGroupId": "player2Deck",
+                "discardGroupId": "player2Discard"
+                
             },
             "onCardLeave": {
                 "controller": "player2"
@@ -65,7 +68,8 @@
             "canHaveAttachments": false,
             "onCardEnter": {
                 "controller": "player1",
-                "peeking": {"player1": true}
+                "peeking": {"player1": true},
+                "discardGroupId": "player1Discard"
             },
             "onCardLeave": {
                 "controller": "player1"
@@ -78,7 +82,8 @@
             "canHaveAttachments": false,
             "onCardEnter": {
                 "controller": "player2",
-                "peeking": {"player2": true}
+                "peeking": {"player2": true},
+                "discardGroupId": "player2Discard"
             },
             "onCardLeave": {
                 "controller": "player2"
@@ -89,8 +94,11 @@
             "label": "id:player1GroundArena1", 
             "tableLabel": "id:groundArena",
             "canHaveAttachments": true,
+            "showWhenBrowsing": false,
             "onCardEnter": {
-                "controller": "player1"
+                "controller": "player1",
+                "discardGroupId": "player1Discard",
+                "rotation": 90
             },
             "onCardLeave": {
                 "controller": "player1"
@@ -101,8 +109,11 @@
             "label": "id:player2GroundArena1", 
             "tableLabel": "id:groundArena",
             "canHaveAttachments": true,
+            "showWhenBrowsing": false,
             "onCardEnter": {
-                "controller": "player2"
+                "controller": "player2",
+                "discardGroupId": "player2Discard",
+                "rotation": 90
             },
             "onCardLeave": {
                 "controller": "player2"
@@ -113,8 +124,11 @@
             "label": "id:player1GroundArena2", 
             "tableLabel": "id:groundArena",
             "canHaveAttachments": true,
+            "showWhenBrowsing": false,
             "onCardEnter": {
-                "controller": "player1"
+                "controller": "player1",
+                "discardGroupId": "player1Discard",
+                "rotation": 90
             },
             "onCardLeave": {
                 "controller": "player1"
@@ -125,8 +139,11 @@
             "label": "id:player2GroundArena2", 
             "tableLabel": "id:groundArena",
             "canHaveAttachments": true,
+            "showWhenBrowsing": false,
             "onCardEnter": {
-                "controller": "player2"
+                "controller": "player2",
+                "discardGroupId": "player2Discard",
+                "rotation": 90
             },
             "onCardLeave": {
                 "controller": "player2"
@@ -137,8 +154,11 @@
             "label": "id:player1SpaceArena1", 
             "tableLabel": "id:spaceArena",
             "canHaveAttachments": true,
+            "showWhenBrowsing": false,
             "onCardEnter": {
-                "controller": "player1"
+                "controller": "player1",
+                "discardGroupId": "player1Discard",
+                "rotation": 90
             },
             "onCardLeave": {
                 "controller": "player1"
@@ -149,8 +169,11 @@
             "label": "id:player2SpaceArena1", 
             "tableLabel": "id:spaceArena",
             "canHaveAttachments": true,
+            "showWhenBrowsing": false,
             "onCardEnter": {
-                "controller": "player2"
+                "controller": "player2",
+                "discardGroupId": "player2Discard",
+                "rotation": 90
             },
             "onCardLeave": {
                 "controller": "player2"
@@ -161,9 +184,12 @@
         "label": "id:player1SpaceArena2", 
         "tableLabel": "id:spaceArena",
         "canHaveAttachments": true,
+        "showWhenBrowsing": false,
         "onCardEnter": {
             "controller": "player1",
-            "peeking": {"player1": true}
+            "peeking": {"player1": true},
+            "discardGroupId": "player2Discard",
+            "rotation": 90
         },
         "onCardLeave": {
             "controller": "player1"
@@ -174,8 +200,11 @@
             "label": "id:player2SpaceArena2", 
             "tableLabel": "id:spaceArena",
             "canHaveAttachments": true,
+            "showWhenBrowsing": false,
             "onCardEnter": {
-                "controller": "player2"
+                "controller": "player2",
+                "discardGroupId": "player2Discard",
+                "rotation": 90
             },
             "onCardLeave": {
                 "controller": "player2"
@@ -186,6 +215,7 @@
             "label": "id:player1Base", 
             "tableLabel": "id:base",
             "canHaveAttachments": false,
+            "showWhenBrowsing": false,
             "onCardEnter": {
                 "controller": "player1"
             }
@@ -195,6 +225,7 @@
             "label": "id:player2Base", 
             "tableLabel": "id:base",
             "canHaveAttachments": false,
+            "showWhenBrowsing": false,
             "onCardEnter": {
                 "controller": "player2"
             }
@@ -204,9 +235,11 @@
             "label": "id:player1Leader", 
             "tableLabel": "id:leader",
             "canHaveAttachments": false,
+            "showWhenBrowsing": false,
             "onCardEnter": {
                 "controller": "player1",
-                "currentSide": "A"
+                "currentSide": "A",
+                "discardGroupId": "player1Leader"
             },
             "onCardLeave": {
                 "controller": "player1",
@@ -218,9 +251,11 @@
             "label": "id:player2Leader", 
             "tableLabel": "id:leader",
             "canHaveAttachments": false,
+            "showWhenBrowsing": false,
             "onCardEnter": {
                 "controller": "player2",
-                "currentSide": "A"
+                "currentSide": "A",
+                "discardGroupId": "player2Leader"
             },
             "onCardLeave": {
                 "controller": "player2",
@@ -234,7 +269,8 @@
             "canHaveAttachments": false,
             "onCardEnter": {
                 "controller": "player1",
-                "currentSide": "B"
+                "currentSide": "B",
+                "discardGroupId": "player1Discard"
             },
             "onCardLeave": {
                 "controller": "player1",
@@ -248,7 +284,8 @@
             "canHaveAttachments": false,
             "onCardEnter": {
                 "controller": "player2",
-                "currentSide": "B"
+                "currentSide": "B",
+                "discardGroupId": "player2Discard"
             },
             "onCardLeave": {
                 "controller": "player2",

@@ -1,4 +1,49 @@
 {
   "automation": {
+    "gameRules": [
+      {
+    "_comment": "Track hand size",
+    "type": "trigger", 
+    "listenTo": ["/groupById/player1Hand/stackIds", "/groupById/player2Hand/stackIds"],
+    "condition": ["TRUE"],
+    "then":
+        ["SET_HAND_SIZE", "$TARGET.onCardEnter.controller"]
+      },
+      {
+        "_comment": "Track resource total",
+        "type": "trigger", 
+        "listenTo": ["/groupById/player1Resource/stackIds", "/groupById/player2Resource/stackIds"],
+        "condition": ["TRUE"],
+        "then":
+            ["SET_RESOURCE_TOTAL", "$TARGET.onCardEnter.controller"]
+      },
+      { 
+      "_comment": "Track resources available, not exhausted",
+      "type": "trigger", 
+      "listenTo": ["/cardById/*/rotation"],
+      "condition": ["AND", 
+                    ["EQUAL", "$TARGET.groupId", "/groupById/player1Resource"],
+                    ["NOT_EQUAL", "$TARGET.rotation", ["PREV", "$TARGET.rotation"]]
+                            ],
+                "then": ["SET_RESOURCE_AVAIL", "$TARGET.onCardEnter.controller"]
+            },
+            {
+            "_comment": "Leader Unit OnCardEnter",
+    "type": "trigger", 
+    "listenTo": ["/cardById/*/groupId"],
+    "condition": ["OR",
+      ["IN_STRING", "$TARGET.groupId", "ground"],
+      ["IN_STRING", "$TARGET.groupId", "space"]
+      ],
+    "then":
+      ["COND",
+      ["EQUAL", "$CARD_BY_ID/type", "LeaderUnit"],
+    [
+        ["LOG", "Leader ready automation"],
+        ["SET", "/groupById/$TARGET.groupId/onCardEnter/rotation", 0],
+        ["SET", "/groupById/$TARGET.groupId/onCardEnter/discardGroupId", "{{Player_N}}Leader"],
+        ["SET", "/groupById/$TARGET.groupId/onCardEnter/currentSide", "B"]
+  ] ]}
+  ]
   }
 }

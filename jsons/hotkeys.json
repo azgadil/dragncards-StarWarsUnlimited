@@ -12,20 +12,22 @@
         ],
         "game": [
             {"key": "D", "actionList": "drawCard", "label": "id:drawCard"},
-            {"key": "Shift+N", "actionList": "newRound", "label": "id:drawCardsAndStartNewRound"},
-            {"key": "Shift+R", "actionList": "readyAll", "label": "id:readyAll"}
+            {"key": "Manual", "actionList": "newRound", "label": "id:drawCardsAndStartNewRound"},
+            {"key": "Shift+R", "actionList": "ready_all", "label": "id:readyAll"},
+            {"key": "Manual", "actionList": "shuffuleToBottom", "label": "id:shuffleToBottom"},
+            {"key": "Z", "actionList": "actionPass", "label": "id:actionPass"},
+            {"key": "Q", "actionList": "actionInitiative", "label": "id:actionInitiative"}
         ],
         "card": 
         [
             {"key": "F", "actionList": "flipCard", "label": "id:flip"},
-            {"key": "C", "actionList": "actionPlay", "label": "id:actionPlay"},
+            {"key": "Manual", "actionList": "actionPlay", "label": "id:actionPlay"},
             {"key": "E", "actionList": "discardCard", "label": "id:discardCard"},
             {"key": "R", "actionList": "toggleRotate", "label": "id:rotateCard"},
-            {"key": "W", "actionList": "resourceCard", "label": "id:resourceCard"},
-            {"key": "A", "actionList": "actionAttack", "label": "id:actionAttack"},
-            {"key": "B", "actionList": "actionAbility", "label": "idactionAbility"},
-            {"key": "Z", "actionList": "actionPass", "label": "id:actionPass"},
-            {"key": "X", "actionList": "actionInitiative", "label": "id:actionInitiative"}
+            {"key": "Manual", "actionList": "resourceCard", "label": "id:resourceCard"},
+            {"key": "Manual", "actionList": "actionAttack", "label": "id:actionAttack"},
+            {"key": "Manual", "actionList": "actionAbility", "label": "idactionAbility"}
+            
         ]
     }
 

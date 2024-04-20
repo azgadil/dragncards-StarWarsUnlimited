@@ -1,7 +1,8 @@
 {
     "layoutMenu": [
-        {"label": "id:onlyShowMyHand", "layoutId": "onlyShowMyHand", "numPlayers": 2},
-        {"label": "id:onlyShowMyHand2", "layoutId": "onlyShowMyHand2", "numPlayers": 2}
+        {"label": "id:onlyShowPlayer1", "layoutId": "onlyShowPlayer1", "numPlayers": 2},
+        {"label": "id:onlyShowPlayer2", "layoutId": "onlyShowPlayer2", "numPlayers": 2},
+        {"label": "id:onlyShowPlayer1Vertical", "layoutId": "onlyShowPlayer1Vertical", "numPlayers": 2}
 
     ]
 }

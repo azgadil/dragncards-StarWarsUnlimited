@@ -8,6 +8,106 @@
                 ["LOG", "└── {{$PLAYER_I}}'s hand size is now {{$HAND_SIZE}}."],
                 ["SET", "/playerData/$PLAYER_I/handSize", "$HAND_SIZE"]
             ]
-        }
+        },
+        "SET_RESOURCE_TOTAL": {
+            "args": ["$PLAYER_I"],
+            "code": [
+                ["VAR", "$RESOURCE_GROUP_ID", "{{$PLAYER_I}}Resource"],
+                ["VAR", "$RESOURCE_TOTAL", ["LENGTH", "$GAME.groupById.$RESOURCE_GROUP_ID.stackIds"]],
+                ["LOG", "└── {{$PLAYER_I}}'s resource total is now {{$RESOURCE_TOTAL}}."],
+                ["SET", "/textBoxById/$RESOURCE_GROUP_ID/content", "$RESOURCE_TOTAL"]
+            ]
+        },
+        "SET_RESOURCE_AVAIL": {
+            "args": ["$PLAYER_I"],
+            "code": [
+                ["VAR", "$RESOURCE_GROUP_ID", "{{$PLAYER_I}}Resource"],
+                ["VAR", "TEXTBOX_ID", "{{$PLAYER_I}}ResourceAvail"],
+                ["VAR", "$RESOURCE_ROTATION_ID", "/cardByID/*/rotation"],
+                ["VAR", "$RESOURCE_AVAIL", 0],
+                ["LOG", "└── {{$PLAYER_I}} exhausted a resource and has {{$RESOURCE_AVAIL}} resources available."],
+                ["FOR_EACH_VAL", "$CARD_ID", "$GAME.groupById.$RESOURCE_GROUP_ID.parentCardIds", 
+                [
+                    ["VAR", "$CARD", "$GAME.cardById.$CARD_ID"],
+                    ["COND",
+                    "EQUAL", "CARD_GROUP_ID", "RESOURCE_GROUP_ID"],
+                    ["COND", 
+                    "EQUAL", "$RESOURCE_ROTATION_ID", 90],
+                    ["INCREASE_VAR", "$RESOURCE_AVAIL", ["ADD", 1]],
+                    ["SET", "/textBoxById/$TEXTBOX_ID/content", "$RESOURCE_AVAIL"]
+                ]
+            ]
+        ]
+        },
+        "CYCLE_TOP_N_CARDS": {
+            "args": ["$GROUP_ID", "$N"],
+            "code": [
+                ["FOR_EACH_START_STOP_STEP", "$I", 0, "$N", 1, [
+                    ["CYCLE_TOP_CARD", "$GROUP_ID"]
+                ]]
+            ]
+        },
+        "CYCLE_DECK": {
+            "args": ["$PLAYER_I"],
+            "code": [
+                ["VAR", "$CYCLE_DECK_ID", "{{$PLAYER_I}}Cycled"],
+                ["VAR", "$CYCLE_DECK", "$GAME.groupById.$CYCLE_DECK_ID"],
+                ["LOG", ["GET_ALIAS", "$PLAYER_I"], " shuffled their cycle pile and moved it to the bottom of their deck."],
+                ["SHUFFLE_GROUP", "$CYCLE_DECK_ID"],
+                ["MOVE_STACKS", "$CYCLE_DECK_ID", "{{$PLAYER_I}}Deck", ["LENGTH", "$CYCLE_DECK.stackIds"], "bottom"]
+            ]
+        },
+        "READY_CARD": {
+            "args": ["$CARD_ID", {"$CONTROLLER": "$ALIAS_N"}],
+            "code": [
+              ["VAR", "$CARD", "$GAME.cardById.$CARD_ID"],
+              ["SET", "/cardById/$CARD_ID/rotation", 0],
+              ["COND",
+                ["DEFINED", "$CONTROLLER"],
+                ["LOG", "{{$CONTROLLER}} readied {{$CARD.currentFace.name}}."]
+              ]
+            ]
+          },
+        "READY_ALL": {
+            "args": [{"$PLAYER": "$PLAYER_N"}, {"$CONTROLLER": "$ALIAS_N"}],
+            "code": [
+              ["LOG", "{{$ALIAS_N}} readied all their cards."],
+              ["FOR_EACH_KEY_VAL", "$CARD_ID", "$CARD", "$GAME.cardById",
+                ["COND",
+                  ["EQUAL", "$CARD.controller", "$PLAYER"],
+                  ["READY_CARD", "$CARD_ID"]
+                ]
+              ]
+            ]
+          },
+          "TAKE_INITIATIVE": {
+            "args":[{"$PLAYER": "$PLAYER_N"}],
+            "code": [
+                ["SET", "/playerData/$PLAYER_N/initiative", 1],
+                ["COND", 
+                    ["EQUAL", "$PLAYER_N", "player1"],
+                    ["SET", "/playerData/player2/initiative", 0]],
+                ["COND",
+                ["EQUAL", "$PLAYER_N", "player2"],
+                ["SET", "/playerData/player1/initiative", 0]]
+
+            ]},
+            "DISCARD_CARD": {
+                "args": ["$CARD_ID", {"$CONTROLLER": "$ALIAS_N"}],
+                "code": [
+                    ["VAR", "$CARD", "$GAME.cardById.$CARD_ID"],
+                    ["LOG", "{{$ALIAS_N}}discarded {{$CARD.sides.A.name}}."],
+                    ["VAR", "$DISCARD_CARD", "$GAME.cardById.$DISCARD_CARD_ID"],
+                    ["MOVE_CARD", "$DISCARD_CARD.id", "$DISCARD_CARD.discardGroupId", 0]
+                ]
+            },
+            "HIGHLIGHT_CURRENT_PLAYER": {
+                "args": [],
+                "code": [
+                    ["FOR_EACH_KEY_VAL", "$PLAYER_I", "$PLAYER_I_DATA", "$PLAYER_DATA", [
+                        ["UPDATE_LAYOUT", "/layout/regions/onlyShow{{Player_I}}/style", null]
+                    ]]
+                ]
+            }
     }
 }

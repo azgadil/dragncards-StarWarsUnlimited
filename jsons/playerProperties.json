@@ -2,6 +2,8 @@
     "playerProperties": {   
         "handSize": {"type": "integer", "default": 0, "min": 0},
         "baseHealth": {"type": "integer", "default": 0, "min": 0, "max": 30},
-        "deckSize": {"type": "integer", "default": 0, "min": 0}
+        "deckSize": {"type": "integer", "default": 0, "min": 0},
+        "resourceTotal": {"type": "integer", "default": 0, "min": 0},
+        "initiative": {"type": "integer", "default": 0, "min": 0, "max": 1}
     }
 }

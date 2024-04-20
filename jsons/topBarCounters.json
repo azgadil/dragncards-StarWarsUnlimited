@@ -12,7 +12,12 @@
             "label": "id:handSize",
             "playerProperty": "handSize",
             "imageUrl": "https://dragncards-wotr.s3.amazonaws.com/tokens/HandSize.png"
-        }
+        },
+    {
+        "label": "id:initiative",
+        "playerProperty": "initiative",
+        "imageUrl": "https://i.imgur.com/KHmnwGH.jpeg"
+    }
     ]
     }
 }
